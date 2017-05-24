@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" thread-count="1" parallel="none" >
+
+<listeners>
+	<listener class-name="bw_dd_util.Fail_Listner"></listener>
+</listeners>
+
+<listeners>
+		<listener class-name="bw_dd_util.Annotationtrasformer_listener"></listener>
+</listeners>
+	
+ <test name="Test1">
+  <classes>
+  <class name="bw_dd_core.Page"/>
+  </classes>
+  </test> <!-- Test -->
+  
+  <test name="Test2" >
+  <classes>  
+  <class name="bw_dd_testcases.SalesSanity"/>
+  </classes>
+  </test> <!-- Test -->
+ 
+  <test name="Test4" >
+  <classes>
+  <class name="bw_dd_testcases.FinanceSanity"/>
+  </classes>
+  </test> <!-- Test -->
+  
+  <test name="Test5" >
+  <classes>
+  <class name="bw_dd_testcases.ContentSanity"/>
+  </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="Test3" >
+  <classes>
+  <class name="bw_dd_testcases.AccountSanity"/>
+  </classes>
+  </test> <!-- Test -->
+  
+  <test name="Test6" >
+  <classes>
+  <class name="bw_dd_testcases.PackageSanity"/>
+  </classes>
+  </test> <!-- Test -->
+  
+  <test name="Test7" >
+  <classes>
+  <class name="bw_dd_testcases.AdminSanity"/>
+  </classes>
+  </test> <!-- Test -->
+  
+  <test name="Test8" >
+  <classes>
+  <class name="bw_dd_testcases.AgencyClient"/>
+  </classes>
+  </test> <!-- Test -->
+  
+  <test name="Test9" >
+  <classes>
+  <class name="bw_dd_testcases.BrokenLinks"/>
+  </classes>
+  </test> <!-- Test -->
+  
+</suite> <!-- Suite -->

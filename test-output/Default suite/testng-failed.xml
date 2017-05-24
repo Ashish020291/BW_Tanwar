@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="bw_dd_testcases.AgencyClient">
+        <methods>
+          <include name="Offerings_BR"/>
+          <include name="Usage_History"/>
+          <include name="Brand_Response_History"/>
+          <include name="Media_Center"/>
+          <include name="My_Profile"/>
+          <include name="logout"/>
+          <include name="Company_Information"/>
+          <include name="Manage_manager"/>
+          <include name="Notification"/>
+          <include name="Offerings_BC"/>
+          <include name="Offerings_Press_Release"/>
+          <include name="Brand_Comment_History"/>
+          <include name="Offerings_RQ"/>
+          <include name="Client_info"/>
+          <include name="Offerings_AF"/>
+          <include name="Offerings_PR"/>
+          <include name="login"/>
+          <include name="Manage_Product_Assign"/>
+          <include name="isSkip"/>
+          <include name="QnA_Dashboard"/>
+          <include name="Manage_Request"/>
+          <include name="Brand_Addendum_History"/>
+          <include name="Press_Release_History"/>
+        </methods>
+      </class> <!-- bw_dd_testcases.AgencyClient -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

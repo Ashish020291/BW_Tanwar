@@ -1,0 +1,464 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="none">
+  <listeners>
+    <listener class-name="bw_dd_util.Annotationtrasformer_listener"/>
+  </listeners>
+  <test name="Test2(failed)" parallel="none">
+    <classes>
+      <class name="bw_dd_core.Page">
+        <methods>
+          <include name="init"/>
+          <include name="exit"/>
+        </methods>
+      </class> <!-- bw_dd_core.Page -->
+      <class name="bw_dd_testcases.AgencyClient">
+        <methods>
+          <include name="isSkip"/>
+          <include name="logout"/>
+        </methods>
+      </class> <!-- bw_dd_testcases.AgencyClient -->
+      <class name="bw_dd_testcases.PackageSanity">
+        <methods>
+          <include name="isSkip"/>
+        </methods>
+      </class> <!-- bw_dd_testcases.PackageSanity -->
+      <class name="bw_dd_testcases.FinanceSanity">
+        <methods>
+          <include name="isSkip"/>
+        </methods>
+      </class> <!-- bw_dd_testcases.FinanceSanity -->
+      <class name="bw_dd_testcases.AccountSanity">
+        <methods>
+          <include name="isSkip"/>
+        </methods>
+      </class> <!-- bw_dd_testcases.AccountSanity -->
+      <class name="bw_dd_testcases.BrokenLinks">
+        <methods>
+          <include name="isSkip"/>
+        </methods>
+      </class> <!-- bw_dd_testcases.BrokenLinks -->
+      <class name="bw_dd_testcases.ContentSanity">
+        <methods>
+          <include name="isSkip"/>
+        </methods>
+      </class> <!-- bw_dd_testcases.ContentSanity -->
+      <class name="bw_dd_testcases.SalesSanity">
+        <methods>
+          <include name="CreateLead"/>
+          <include name="RecordSales"/>
+          <include name="isSkip"/>
+          <include name="CreateAccount"/>
+          <include name="Invoices"/>
+          <include name="CreateExecutive"/>
+          <include name="LeadDashboard"/>
+          <include name="ExecutiveDashboard"/>
+          <include name="login"/>
+          <include name="SalesDashboard"/>
+          <include name="ManageProduct"/>
+        </methods>
+      </class> <!-- bw_dd_testcases.SalesSanity -->
+      <class name="bw_dd_testcases.AdminSanity">
+        <methods>
+          <include name="isSkip"/>
+        </methods>
+      </class> <!-- bw_dd_testcases.AdminSanity -->
+    </classes>
+  </test> <!-- Test2(failed) -->
+  <test name="Test4(failed)" parallel="none">
+    <classes>
+      <class name="bw_dd_core.Page">
+        <methods>
+          <include name="init"/>
+          <include name="exit"/>
+        </methods>
+      </class> <!-- bw_dd_core.Page -->
+      <class name="bw_dd_testcases.AgencyClient">
+        <methods>
+          <include name="isSkip"/>
+          <include name="logout"/>
+        </methods>
+      </class> <!-- bw_dd_testcases.AgencyClient -->
+      <class name="bw_dd_testcases.PackageSanity">
+        <methods>
+          <include name="isSkip"/>
+        </methods>
+      </class> <!-- bw_dd_testcases.PackageSanity -->
+      <class name="bw_dd_testcases.FinanceSanity">
+        <methods>
+          <include name="ManageProduct"/>
+          <include name="ExecutiveDashboard"/>
+          <include name="CreateAccout"/>
+          <include name="isSkip"/>
+          <include name="FinanceDashboard"/>
+          <include name="Invoices"/>
+          <include name="RevenueReports"/>
+          <include name="CreateExecutive"/>
+          <include name="RecordSale"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- bw_dd_testcases.FinanceSanity -->
+      <class name="bw_dd_testcases.AccountSanity">
+        <methods>
+          <include name="isSkip"/>
+        </methods>
+      </class> <!-- bw_dd_testcases.AccountSanity -->
+      <class name="bw_dd_testcases.BrokenLinks">
+        <methods>
+          <include name="isSkip"/>
+        </methods>
+      </class> <!-- bw_dd_testcases.BrokenLinks -->
+      <class name="bw_dd_testcases.ContentSanity">
+        <methods>
+          <include name="isSkip"/>
+        </methods>
+      </class> <!-- bw_dd_testcases.ContentSanity -->
+      <class name="bw_dd_testcases.SalesSanity">
+        <methods>
+          <include name="isSkip"/>
+        </methods>
+      </class> <!-- bw_dd_testcases.SalesSanity -->
+      <class name="bw_dd_testcases.AdminSanity">
+        <methods>
+          <include name="isSkip"/>
+        </methods>
+      </class> <!-- bw_dd_testcases.AdminSanity -->
+    </classes>
+  </test> <!-- Test4(failed) -->
+  <test name="Test5(failed)" parallel="none">
+    <classes>
+      <class name="bw_dd_core.Page">
+        <methods>
+          <include name="init"/>
+          <include name="exit"/>
+        </methods>
+      </class> <!-- bw_dd_core.Page -->
+      <class name="bw_dd_testcases.AgencyClient">
+        <methods>
+          <include name="isSkip"/>
+          <include name="logout"/>
+        </methods>
+      </class> <!-- bw_dd_testcases.AgencyClient -->
+      <class name="bw_dd_testcases.PackageSanity">
+        <methods>
+          <include name="isSkip"/>
+        </methods>
+      </class> <!-- bw_dd_testcases.PackageSanity -->
+      <class name="bw_dd_testcases.FinanceSanity">
+        <methods>
+          <include name="isSkip"/>
+        </methods>
+      </class> <!-- bw_dd_testcases.FinanceSanity -->
+      <class name="bw_dd_testcases.AccountSanity">
+        <methods>
+          <include name="isSkip"/>
+        </methods>
+      </class> <!-- bw_dd_testcases.AccountSanity -->
+      <class name="bw_dd_testcases.BrokenLinks">
+        <methods>
+          <include name="isSkip"/>
+        </methods>
+      </class> <!-- bw_dd_testcases.BrokenLinks -->
+      <class name="bw_dd_testcases.ContentSanity">
+        <methods>
+          <include name="CreateBrandCommen"/>
+          <include name="CreateBrandResponse"/>
+          <include name="CreatePressRelease"/>
+          <include name="ContentDashboard"/>
+          <include name="CreateBrandAddendum"/>
+          <include name="isSkip"/>
+          <include name="ExecutiveDashboard"/>
+          <include name="login"/>
+          <include name="CreateExecutive"/>
+        </methods>
+      </class> <!-- bw_dd_testcases.ContentSanity -->
+      <class name="bw_dd_testcases.SalesSanity">
+        <methods>
+          <include name="isSkip"/>
+        </methods>
+      </class> <!-- bw_dd_testcases.SalesSanity -->
+      <class name="bw_dd_testcases.AdminSanity">
+        <methods>
+          <include name="isSkip"/>
+        </methods>
+      </class> <!-- bw_dd_testcases.AdminSanity -->
+    </classes>
+  </test> <!-- Test5(failed) -->
+  <test name="Test3(failed)" parallel="none">
+    <classes>
+      <class name="bw_dd_core.Page">
+        <methods>
+          <include name="init"/>
+          <include name="exit"/>
+        </methods>
+      </class> <!-- bw_dd_core.Page -->
+      <class name="bw_dd_testcases.AgencyClient">
+        <methods>
+          <include name="isSkip"/>
+          <include name="logout"/>
+        </methods>
+      </class> <!-- bw_dd_testcases.AgencyClient -->
+      <class name="bw_dd_testcases.PackageSanity">
+        <methods>
+          <include name="isSkip"/>
+        </methods>
+      </class> <!-- bw_dd_testcases.PackageSanity -->
+      <class name="bw_dd_testcases.AccountSanity">
+        <methods>
+          <include name="manageBrand"/>
+          <include name="AccountDashboard"/>
+          <include name="ManagePublication"/>
+          <include name="createBrand"/>
+          <include name="createManager"/>
+          <include name="isSkip"/>
+          <include name="ExecutiveDashboard"/>
+          <include name="login"/>
+          <include name="CreateAccount"/>
+          <include name="CreateExecutive"/>
+          <include name="manageManager"/>
+        </methods>
+      </class> <!-- bw_dd_testcases.AccountSanity -->
+      <class name="bw_dd_testcases.FinanceSanity">
+        <methods>
+          <include name="isSkip"/>
+        </methods>
+      </class> <!-- bw_dd_testcases.FinanceSanity -->
+      <class name="bw_dd_testcases.BrokenLinks">
+        <methods>
+          <include name="isSkip"/>
+        </methods>
+      </class> <!-- bw_dd_testcases.BrokenLinks -->
+      <class name="bw_dd_testcases.ContentSanity">
+        <methods>
+          <include name="isSkip"/>
+        </methods>
+      </class> <!-- bw_dd_testcases.ContentSanity -->
+      <class name="bw_dd_testcases.SalesSanity">
+        <methods>
+          <include name="isSkip"/>
+        </methods>
+      </class> <!-- bw_dd_testcases.SalesSanity -->
+      <class name="bw_dd_testcases.AdminSanity">
+        <methods>
+          <include name="isSkip"/>
+        </methods>
+      </class> <!-- bw_dd_testcases.AdminSanity -->
+    </classes>
+  </test> <!-- Test3(failed) -->
+  <test name="Test6(failed)" parallel="none">
+    <classes>
+      <class name="bw_dd_core.Page">
+        <methods>
+          <include name="init"/>
+          <include name="exit"/>
+        </methods>
+      </class> <!-- bw_dd_core.Page -->
+      <class name="bw_dd_testcases.AgencyClient">
+        <methods>
+          <include name="isSkip"/>
+          <include name="logout"/>
+        </methods>
+      </class> <!-- bw_dd_testcases.AgencyClient -->
+      <class name="bw_dd_testcases.PackageSanity">
+        <methods>
+          <include name="CreatePackage"/>
+          <include name="PackageDashboard"/>
+          <include name="isSkip"/>
+          <include name="ManagePricing"/>
+          <include name="CreateExecutive"/>
+          <include name="login"/>
+          <include name="ExecutiveDashboard"/>
+        </methods>
+      </class> <!-- bw_dd_testcases.PackageSanity -->
+      <class name="bw_dd_testcases.FinanceSanity">
+        <methods>
+          <include name="isSkip"/>
+        </methods>
+      </class> <!-- bw_dd_testcases.FinanceSanity -->
+      <class name="bw_dd_testcases.AccountSanity">
+        <methods>
+          <include name="isSkip"/>
+        </methods>
+      </class> <!-- bw_dd_testcases.AccountSanity -->
+      <class name="bw_dd_testcases.BrokenLinks">
+        <methods>
+          <include name="isSkip"/>
+        </methods>
+      </class> <!-- bw_dd_testcases.BrokenLinks -->
+      <class name="bw_dd_testcases.ContentSanity">
+        <methods>
+          <include name="isSkip"/>
+        </methods>
+      </class> <!-- bw_dd_testcases.ContentSanity -->
+      <class name="bw_dd_testcases.SalesSanity">
+        <methods>
+          <include name="isSkip"/>
+        </methods>
+      </class> <!-- bw_dd_testcases.SalesSanity -->
+      <class name="bw_dd_testcases.AdminSanity">
+        <methods>
+          <include name="isSkip"/>
+        </methods>
+      </class> <!-- bw_dd_testcases.AdminSanity -->
+    </classes>
+  </test> <!-- Test6(failed) -->
+  <test name="Test7(failed)" parallel="none">
+    <classes>
+      <class name="bw_dd_core.Page">
+        <methods>
+          <include name="init"/>
+          <include name="exit"/>
+        </methods>
+      </class> <!-- bw_dd_core.Page -->
+      <class name="bw_dd_testcases.AgencyClient">
+        <methods>
+          <include name="isSkip"/>
+          <include name="logout"/>
+        </methods>
+      </class> <!-- bw_dd_testcases.AgencyClient -->
+      <class name="bw_dd_testcases.PackageSanity">
+        <methods>
+          <include name="isSkip"/>
+        </methods>
+      </class> <!-- bw_dd_testcases.PackageSanity -->
+      <class name="bw_dd_testcases.FinanceSanity">
+        <methods>
+          <include name="isSkip"/>
+        </methods>
+      </class> <!-- bw_dd_testcases.FinanceSanity -->
+      <class name="bw_dd_testcases.AccountSanity">
+        <methods>
+          <include name="isSkip"/>
+        </methods>
+      </class> <!-- bw_dd_testcases.AccountSanity -->
+      <class name="bw_dd_testcases.BrokenLinks">
+        <methods>
+          <include name="isSkip"/>
+        </methods>
+      </class> <!-- bw_dd_testcases.BrokenLinks -->
+      <class name="bw_dd_testcases.ContentSanity">
+        <methods>
+          <include name="isSkip"/>
+        </methods>
+      </class> <!-- bw_dd_testcases.ContentSanity -->
+      <class name="bw_dd_testcases.SalesSanity">
+        <methods>
+          <include name="isSkip"/>
+        </methods>
+      </class> <!-- bw_dd_testcases.SalesSanity -->
+      <class name="bw_dd_testcases.AdminSanity">
+        <methods>
+          <include name="isSkip"/>
+          <include name="Createaccount"/>
+          <include name="AdminDashboard"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- bw_dd_testcases.AdminSanity -->
+    </classes>
+  </test> <!-- Test7(failed) -->
+  <test name="Test8(failed)" parallel="none">
+    <classes>
+      <class name="bw_dd_testcases.AgencyClient">
+        <methods>
+          <include name="Notification"/>
+          <include name="isSkip"/>
+          <include name="Manage_Request"/>
+          <include name="logout"/>
+        </methods>
+      </class> <!-- bw_dd_testcases.AgencyClient -->
+      <class name="bw_dd_core.Page">
+        <methods>
+          <include name="init"/>
+          <include name="exit"/>
+        </methods>
+      </class> <!-- bw_dd_core.Page -->
+      <class name="bw_dd_testcases.PackageSanity">
+        <methods>
+          <include name="isSkip"/>
+        </methods>
+      </class> <!-- bw_dd_testcases.PackageSanity -->
+      <class name="bw_dd_testcases.FinanceSanity">
+        <methods>
+          <include name="isSkip"/>
+        </methods>
+      </class> <!-- bw_dd_testcases.FinanceSanity -->
+      <class name="bw_dd_testcases.AccountSanity">
+        <methods>
+          <include name="isSkip"/>
+        </methods>
+      </class> <!-- bw_dd_testcases.AccountSanity -->
+      <class name="bw_dd_testcases.BrokenLinks">
+        <methods>
+          <include name="isSkip"/>
+        </methods>
+      </class> <!-- bw_dd_testcases.BrokenLinks -->
+      <class name="bw_dd_testcases.ContentSanity">
+        <methods>
+          <include name="isSkip"/>
+        </methods>
+      </class> <!-- bw_dd_testcases.ContentSanity -->
+      <class name="bw_dd_testcases.SalesSanity">
+        <methods>
+          <include name="isSkip"/>
+        </methods>
+      </class> <!-- bw_dd_testcases.SalesSanity -->
+      <class name="bw_dd_testcases.AdminSanity">
+        <methods>
+          <include name="isSkip"/>
+        </methods>
+      </class> <!-- bw_dd_testcases.AdminSanity -->
+    </classes>
+  </test> <!-- Test8(failed) -->
+  <test name="Test9(failed)" parallel="none">
+    <classes>
+      <class name="bw_dd_core.Page">
+        <methods>
+          <include name="init"/>
+          <include name="exit"/>
+        </methods>
+      </class> <!-- bw_dd_core.Page -->
+      <class name="bw_dd_testcases.AgencyClient">
+        <methods>
+          <include name="isSkip"/>
+          <include name="logout"/>
+        </methods>
+      </class> <!-- bw_dd_testcases.AgencyClient -->
+      <class name="bw_dd_testcases.PackageSanity">
+        <methods>
+          <include name="isSkip"/>
+        </methods>
+      </class> <!-- bw_dd_testcases.PackageSanity -->
+      <class name="bw_dd_testcases.BrokenLinks">
+        <methods>
+          <include name="isSkip"/>
+          <include name="home_page_links_testing"/>
+        </methods>
+      </class> <!-- bw_dd_testcases.BrokenLinks -->
+      <class name="bw_dd_testcases.FinanceSanity">
+        <methods>
+          <include name="isSkip"/>
+        </methods>
+      </class> <!-- bw_dd_testcases.FinanceSanity -->
+      <class name="bw_dd_testcases.AccountSanity">
+        <methods>
+          <include name="isSkip"/>
+        </methods>
+      </class> <!-- bw_dd_testcases.AccountSanity -->
+      <class name="bw_dd_testcases.ContentSanity">
+        <methods>
+          <include name="isSkip"/>
+        </methods>
+      </class> <!-- bw_dd_testcases.ContentSanity -->
+      <class name="bw_dd_testcases.SalesSanity">
+        <methods>
+          <include name="isSkip"/>
+        </methods>
+      </class> <!-- bw_dd_testcases.SalesSanity -->
+      <class name="bw_dd_testcases.AdminSanity">
+        <methods>
+          <include name="isSkip"/>
+        </methods>
+      </class> <!-- bw_dd_testcases.AdminSanity -->
+    </classes>
+  </test> <!-- Test9(failed) -->
+</suite> <!-- Failed suite [Suite] -->

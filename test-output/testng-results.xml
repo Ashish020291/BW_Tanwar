@@ -1,0 +1,841 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="51" failed="2" total="72" passed="19">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="75620" started-at="2017-05-24T03:58:13Z" finished-at="2017-05-24T03:59:28Z">
+    <groups>
+    </groups>
+    <test name="Test1" duration-ms="3" started-at="2017-05-24T03:58:13Z" finished-at="2017-05-24T03:58:13Z">
+    </test> <!-- Test1 -->
+    <test name="Test2" duration-ms="76" started-at="2017-05-24T03:58:13Z" finished-at="2017-05-24T03:58:13Z">
+      <class name="bw_dd_testcases.SalesSanity">
+        <test-method status="SKIP" signature="isSkip()[pri:0, instance:bw_dd_testcases.SalesSanity@71809907]" name="isSkip" is-config="true" duration-ms="0" started-at="2017-05-24T09:28:13Z" finished-at="2017-05-24T09:28:13Z">
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Skipping the test as the Run mode is No]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Skipping the test as the Run mode is No
+	at bw_dd_testcases.SalesSanity.isSkip(SalesSanity.java:34)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:510)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:211)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isSkip -->
+        <test-method status="SKIP" signature="login()[pri:1, instance:bw_dd_testcases.SalesSanity@71809907]" name="login" duration-ms="0" started-at="2017-05-24T09:28:13Z" finished-at="2017-05-24T09:28:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="SKIP" signature="LeadDashboard()[pri:2, instance:bw_dd_testcases.SalesSanity@71809907]" name="LeadDashboard" duration-ms="4" started-at="2017-05-24T09:28:13Z" finished-at="2017-05-24T09:28:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LeadDashboard -->
+        <test-method status="SKIP" signature="CreateLead()[pri:3, instance:bw_dd_testcases.SalesSanity@71809907]" name="CreateLead" duration-ms="0" started-at="2017-05-24T09:28:13Z" finished-at="2017-05-24T09:28:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateLead -->
+        <test-method status="SKIP" signature="CreateAccount()[pri:4, instance:bw_dd_testcases.SalesSanity@71809907]" name="CreateAccount" duration-ms="0" started-at="2017-05-24T09:28:13Z" finished-at="2017-05-24T09:28:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateAccount -->
+        <test-method status="SKIP" signature="SalesDashboard()[pri:5, instance:bw_dd_testcases.SalesSanity@71809907]" name="SalesDashboard" duration-ms="0" started-at="2017-05-24T09:28:13Z" finished-at="2017-05-24T09:28:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SalesDashboard -->
+        <test-method status="SKIP" signature="RecordSales()[pri:6, instance:bw_dd_testcases.SalesSanity@71809907]" name="RecordSales" duration-ms="8" started-at="2017-05-24T09:28:13Z" finished-at="2017-05-24T09:28:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RecordSales -->
+        <test-method status="SKIP" signature="ManageProduct()[pri:7, instance:bw_dd_testcases.SalesSanity@71809907]" name="ManageProduct" duration-ms="0" started-at="2017-05-24T09:28:13Z" finished-at="2017-05-24T09:28:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ManageProduct -->
+        <test-method status="SKIP" signature="Invoices()[pri:8, instance:bw_dd_testcases.SalesSanity@71809907]" name="Invoices" duration-ms="4" started-at="2017-05-24T09:28:13Z" finished-at="2017-05-24T09:28:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Invoices -->
+        <test-method status="SKIP" signature="ExecutiveDashboard()[pri:9, instance:bw_dd_testcases.SalesSanity@71809907]" name="ExecutiveDashboard" duration-ms="4" started-at="2017-05-24T09:28:13Z" finished-at="2017-05-24T09:28:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ExecutiveDashboard -->
+        <test-method status="SKIP" signature="CreateExecutive()[pri:10, instance:bw_dd_testcases.SalesSanity@71809907]" name="CreateExecutive" duration-ms="0" started-at="2017-05-24T09:28:13Z" finished-at="2017-05-24T09:28:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateExecutive -->
+        <test-method status="SKIP" signature="logout()[pri:0, instance:bw_dd_testcases.SalesSanity@71809907]" name="logout" is-config="true" duration-ms="0" started-at="2017-05-24T09:28:13Z" finished-at="2017-05-24T09:28:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+      </class> <!-- bw_dd_testcases.SalesSanity -->
+    </test> <!-- Test2 -->
+    <test name="Test4" duration-ms="44" started-at="2017-05-24T03:58:13Z" finished-at="2017-05-24T03:58:13Z">
+      <class name="bw_dd_testcases.FinanceSanity">
+        <test-method status="SKIP" signature="isSkip()[pri:0, instance:bw_dd_testcases.FinanceSanity@5af3afd9]" name="isSkip" is-config="true" duration-ms="0" started-at="2017-05-24T09:28:13Z" finished-at="2017-05-24T09:28:13Z">
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Skipping the test as the Run mode is No]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Skipping the test as the Run mode is No
+	at bw_dd_testcases.FinanceSanity.isSkip(FinanceSanity.java:37)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:510)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:211)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isSkip -->
+        <test-method status="SKIP" signature="login()[pri:1, instance:bw_dd_testcases.FinanceSanity@5af3afd9]" name="login" duration-ms="0" started-at="2017-05-24T09:28:13Z" finished-at="2017-05-24T09:28:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="SKIP" signature="FinanceDashboard()[pri:2, instance:bw_dd_testcases.FinanceSanity@5af3afd9]" name="FinanceDashboard" duration-ms="4" started-at="2017-05-24T09:28:13Z" finished-at="2017-05-24T09:28:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FinanceDashboard -->
+        <test-method status="SKIP" signature="RecordSale()[pri:4, instance:bw_dd_testcases.FinanceSanity@5af3afd9]" name="RecordSale" duration-ms="8" started-at="2017-05-24T09:28:13Z" finished-at="2017-05-24T09:28:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RecordSale -->
+        <test-method status="SKIP" signature="CreateAccout()[pri:3, instance:bw_dd_testcases.FinanceSanity@5af3afd9]" name="CreateAccout" duration-ms="0" started-at="2017-05-24T09:28:13Z" finished-at="2017-05-24T09:28:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateAccout -->
+        <test-method status="SKIP" signature="ManageProduct()[pri:5, instance:bw_dd_testcases.FinanceSanity@5af3afd9]" name="ManageProduct" duration-ms="4" started-at="2017-05-24T09:28:13Z" finished-at="2017-05-24T09:28:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ManageProduct -->
+        <test-method status="SKIP" signature="Invoices()[pri:6, instance:bw_dd_testcases.FinanceSanity@5af3afd9]" name="Invoices" duration-ms="4" started-at="2017-05-24T09:28:13Z" finished-at="2017-05-24T09:28:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Invoices -->
+        <test-method status="SKIP" signature="RevenueReports()[pri:7, instance:bw_dd_testcases.FinanceSanity@5af3afd9]" name="RevenueReports" duration-ms="0" started-at="2017-05-24T09:28:13Z" finished-at="2017-05-24T09:28:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RevenueReports -->
+        <test-method status="SKIP" signature="ExecutiveDashboard()[pri:8, instance:bw_dd_testcases.FinanceSanity@5af3afd9]" name="ExecutiveDashboard" duration-ms="0" started-at="2017-05-24T09:28:13Z" finished-at="2017-05-24T09:28:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ExecutiveDashboard -->
+        <test-method status="SKIP" signature="CreateExecutive()[pri:9, instance:bw_dd_testcases.FinanceSanity@5af3afd9]" name="CreateExecutive" duration-ms="0" started-at="2017-05-24T09:28:13Z" finished-at="2017-05-24T09:28:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateExecutive -->
+        <test-method status="SKIP" signature="logout()[pri:0, instance:bw_dd_testcases.FinanceSanity@5af3afd9]" name="logout" is-config="true" duration-ms="0" started-at="2017-05-24T09:28:13Z" finished-at="2017-05-24T09:28:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+      </class> <!-- bw_dd_testcases.FinanceSanity -->
+    </test> <!-- Test4 -->
+    <test name="Test5" duration-ms="28" started-at="2017-05-24T03:58:13Z" finished-at="2017-05-24T03:58:13Z">
+      <class name="bw_dd_testcases.ContentSanity">
+        <test-method status="SKIP" signature="isSkip()[pri:0, instance:bw_dd_testcases.ContentSanity@4f18837a]" name="isSkip" is-config="true" duration-ms="0" started-at="2017-05-24T09:28:13Z" finished-at="2017-05-24T09:28:13Z">
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Skipping the test as the Run mode is No]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Skipping the test as the Run mode is No
+	at bw_dd_testcases.ContentSanity.isSkip(ContentSanity.java:36)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:510)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:211)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isSkip -->
+        <test-method status="SKIP" signature="login()[pri:1, instance:bw_dd_testcases.ContentSanity@4f18837a]" name="login" duration-ms="4" started-at="2017-05-24T09:28:13Z" finished-at="2017-05-24T09:28:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="SKIP" signature="ContentDashboard()[pri:2, instance:bw_dd_testcases.ContentSanity@4f18837a]" name="ContentDashboard" duration-ms="4" started-at="2017-05-24T09:28:13Z" finished-at="2017-05-24T09:28:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ContentDashboard -->
+        <test-method status="SKIP" signature="CreateBrandResponse()[pri:4, instance:bw_dd_testcases.ContentSanity@4f18837a]" name="CreateBrandResponse" duration-ms="4" started-at="2017-05-24T09:28:13Z" finished-at="2017-05-24T09:28:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateBrandResponse -->
+        <test-method status="SKIP" signature="CreatePressRelease()[pri:3, instance:bw_dd_testcases.ContentSanity@4f18837a]" name="CreatePressRelease" duration-ms="0" started-at="2017-05-24T09:28:13Z" finished-at="2017-05-24T09:28:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreatePressRelease -->
+        <test-method status="SKIP" signature="CreateBrandAddendum()[pri:5, instance:bw_dd_testcases.ContentSanity@4f18837a]" name="CreateBrandAddendum" duration-ms="0" started-at="2017-05-24T09:28:13Z" finished-at="2017-05-24T09:28:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateBrandAddendum -->
+        <test-method status="SKIP" signature="CreateBrandCommen()[pri:6, instance:bw_dd_testcases.ContentSanity@4f18837a]" name="CreateBrandCommen" duration-ms="4" started-at="2017-05-24T09:28:13Z" finished-at="2017-05-24T09:28:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateBrandCommen -->
+        <test-method status="SKIP" signature="ExecutiveDashboard()[pri:7, instance:bw_dd_testcases.ContentSanity@4f18837a]" name="ExecutiveDashboard" duration-ms="4" started-at="2017-05-24T09:28:13Z" finished-at="2017-05-24T09:28:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ExecutiveDashboard -->
+        <test-method status="SKIP" signature="logout()[pri:0, instance:bw_dd_testcases.ContentSanity@4f18837a]" name="logout" is-config="true" duration-ms="0" started-at="2017-05-24T09:28:13Z" finished-at="2017-05-24T09:28:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method status="SKIP" signature="CreateExecutive()[pri:8, instance:bw_dd_testcases.ContentSanity@4f18837a]" name="CreateExecutive" duration-ms="0" started-at="2017-05-24T09:28:13Z" finished-at="2017-05-24T09:28:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateExecutive -->
+      </class> <!-- bw_dd_testcases.ContentSanity -->
+    </test> <!-- Test5 -->
+    <test name="Test3" duration-ms="36" started-at="2017-05-24T03:58:13Z" finished-at="2017-05-24T03:58:13Z">
+      <class name="bw_dd_testcases.AccountSanity">
+        <test-method status="SKIP" signature="isSkip()[pri:0, instance:bw_dd_testcases.AccountSanity@4fb61f4a]" name="isSkip" is-config="true" duration-ms="0" started-at="2017-05-24T09:28:13Z" finished-at="2017-05-24T09:28:13Z">
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Skipping the test as the Run mode is No]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Skipping the test as the Run mode is No
+	at bw_dd_testcases.AccountSanity.isSkip(AccountSanity.java:34)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:510)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:211)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isSkip -->
+        <test-method status="SKIP" signature="AccountDashboard()[pri:2, instance:bw_dd_testcases.AccountSanity@4fb61f4a]" name="AccountDashboard" duration-ms="4" started-at="2017-05-24T09:28:13Z" finished-at="2017-05-24T09:28:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AccountDashboard -->
+        <test-method status="SKIP" signature="login()[pri:1, instance:bw_dd_testcases.AccountSanity@4fb61f4a]" name="login" duration-ms="0" started-at="2017-05-24T09:28:13Z" finished-at="2017-05-24T09:28:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="SKIP" signature="CreateAccount()[pri:3, instance:bw_dd_testcases.AccountSanity@4fb61f4a]" name="CreateAccount" duration-ms="0" started-at="2017-05-24T09:28:13Z" finished-at="2017-05-24T09:28:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateAccount -->
+        <test-method status="SKIP" signature="createBrand()[pri:4, instance:bw_dd_testcases.AccountSanity@4fb61f4a]" name="createBrand" duration-ms="4" started-at="2017-05-24T09:28:13Z" finished-at="2017-05-24T09:28:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createBrand -->
+        <test-method status="SKIP" signature="manageBrand()[pri:5, instance:bw_dd_testcases.AccountSanity@4fb61f4a]" name="manageBrand" duration-ms="0" started-at="2017-05-24T09:28:13Z" finished-at="2017-05-24T09:28:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- manageBrand -->
+        <test-method status="SKIP" signature="createManager()[pri:6, instance:bw_dd_testcases.AccountSanity@4fb61f4a]" name="createManager" duration-ms="0" started-at="2017-05-24T09:28:13Z" finished-at="2017-05-24T09:28:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createManager -->
+        <test-method status="SKIP" signature="ManagePublication()[pri:9, instance:bw_dd_testcases.AccountSanity@4fb61f4a]" name="ManagePublication" duration-ms="0" started-at="2017-05-24T09:28:13Z" finished-at="2017-05-24T09:28:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ManagePublication -->
+        <test-method status="SKIP" signature="manageManager()[pri:7, instance:bw_dd_testcases.AccountSanity@4fb61f4a]" name="manageManager" duration-ms="0" started-at="2017-05-24T09:28:13Z" finished-at="2017-05-24T09:28:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- manageManager -->
+        <test-method status="SKIP" signature="ExecutiveDashboard()[pri:10, instance:bw_dd_testcases.AccountSanity@4fb61f4a]" name="ExecutiveDashboard" duration-ms="0" started-at="2017-05-24T09:28:13Z" finished-at="2017-05-24T09:28:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ExecutiveDashboard -->
+        <test-method status="SKIP" signature="CreateExecutive()[pri:11, instance:bw_dd_testcases.AccountSanity@4fb61f4a]" name="CreateExecutive" duration-ms="0" started-at="2017-05-24T09:28:13Z" finished-at="2017-05-24T09:28:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateExecutive -->
+        <test-method status="SKIP" signature="logout()[pri:0, instance:bw_dd_testcases.AccountSanity@4fb61f4a]" name="logout" is-config="true" duration-ms="0" started-at="2017-05-24T09:28:13Z" finished-at="2017-05-24T09:28:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+      </class> <!-- bw_dd_testcases.AccountSanity -->
+    </test> <!-- Test3 -->
+    <test name="Test6" duration-ms="12" started-at="2017-05-24T03:58:13Z" finished-at="2017-05-24T03:58:13Z">
+      <class name="bw_dd_testcases.PackageSanity">
+        <test-method status="SKIP" signature="isSkip()[pri:0, instance:bw_dd_testcases.PackageSanity@67d48005]" name="isSkip" is-config="true" duration-ms="0" started-at="2017-05-24T09:28:13Z" finished-at="2017-05-24T09:28:13Z">
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Skipping the test as the Run mode is No]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Skipping the test as the Run mode is No
+	at bw_dd_testcases.PackageSanity.isSkip(PackageSanity.java:35)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:510)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:211)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isSkip -->
+        <test-method status="SKIP" signature="PackageDashboard()[pri:2, instance:bw_dd_testcases.PackageSanity@67d48005]" name="PackageDashboard" duration-ms="0" started-at="2017-05-24T09:28:13Z" finished-at="2017-05-24T09:28:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PackageDashboard -->
+        <test-method status="SKIP" signature="login()[pri:1, instance:bw_dd_testcases.PackageSanity@67d48005]" name="login" duration-ms="0" started-at="2017-05-24T09:28:13Z" finished-at="2017-05-24T09:28:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="SKIP" signature="CreateExecutive()[pri:6, instance:bw_dd_testcases.PackageSanity@67d48005]" name="CreateExecutive" duration-ms="4" started-at="2017-05-24T09:28:13Z" finished-at="2017-05-24T09:28:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateExecutive -->
+        <test-method status="SKIP" signature="CreatePackage()[pri:3, instance:bw_dd_testcases.PackageSanity@67d48005]" name="CreatePackage" duration-ms="0" started-at="2017-05-24T09:28:13Z" finished-at="2017-05-24T09:28:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreatePackage -->
+        <test-method status="SKIP" signature="ManagePricing()[pri:4, instance:bw_dd_testcases.PackageSanity@67d48005]" name="ManagePricing" duration-ms="0" started-at="2017-05-24T09:28:13Z" finished-at="2017-05-24T09:28:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ManagePricing -->
+        <test-method status="SKIP" signature="ExecutiveDashboard()[pri:5, instance:bw_dd_testcases.PackageSanity@67d48005]" name="ExecutiveDashboard" duration-ms="0" started-at="2017-05-24T09:28:13Z" finished-at="2017-05-24T09:28:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ExecutiveDashboard -->
+        <test-method status="SKIP" signature="logout()[pri:0, instance:bw_dd_testcases.PackageSanity@67d48005]" name="logout" is-config="true" duration-ms="0" started-at="2017-05-24T09:28:13Z" finished-at="2017-05-24T09:28:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+      </class> <!-- bw_dd_testcases.PackageSanity -->
+    </test> <!-- Test6 -->
+    <test name="Test7" duration-ms="4" started-at="2017-05-24T03:58:13Z" finished-at="2017-05-24T03:58:13Z">
+      <class name="bw_dd_testcases.AdminSanity">
+        <test-method status="SKIP" signature="isSkip()[pri:0, instance:bw_dd_testcases.AdminSanity@6572421]" name="isSkip" is-config="true" duration-ms="0" started-at="2017-05-24T09:28:13Z" finished-at="2017-05-24T09:28:13Z">
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Skipping the test as the Run mode is No]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Skipping the test as the Run mode is No
+	at bw_dd_testcases.AdminSanity.isSkip(AdminSanity.java:32)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:510)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:211)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isSkip -->
+        <test-method status="SKIP" signature="login()[pri:1, instance:bw_dd_testcases.AdminSanity@6572421]" name="login" duration-ms="0" started-at="2017-05-24T09:28:13Z" finished-at="2017-05-24T09:28:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="SKIP" signature="logout()[pri:0, instance:bw_dd_testcases.AdminSanity@6572421]" name="logout" is-config="true" duration-ms="0" started-at="2017-05-24T09:28:13Z" finished-at="2017-05-24T09:28:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method status="SKIP" signature="Createaccount()[pri:3, instance:bw_dd_testcases.AdminSanity@6572421]" name="Createaccount" duration-ms="0" started-at="2017-05-24T09:28:13Z" finished-at="2017-05-24T09:28:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Createaccount -->
+        <test-method status="SKIP" signature="AdminDashboard()[pri:2, instance:bw_dd_testcases.AdminSanity@6572421]" name="AdminDashboard" duration-ms="0" started-at="2017-05-24T09:28:13Z" finished-at="2017-05-24T09:28:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AdminDashboard -->
+      </class> <!-- bw_dd_testcases.AdminSanity -->
+    </test> <!-- Test7 -->
+    <test name="Test8" duration-ms="75173" started-at="2017-05-24T03:58:13Z" finished-at="2017-05-24T03:59:28Z">
+      <class name="bw_dd_testcases.AgencyClient">
+        <test-method status="PASS" signature="isSkip()[pri:0, instance:bw_dd_testcases.AgencyClient@245b4bdc]" name="isSkip" is-config="true" duration-ms="4" started-at="2017-05-24T09:28:13Z" finished-at="2017-05-24T09:28:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isSkip -->
+        <test-method status="PASS" signature="login()[pri:1, instance:bw_dd_testcases.AgencyClient@245b4bdc]" name="login" duration-ms="2393" started-at="2017-05-24T09:28:13Z" finished-at="2017-05-24T09:28:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="Media_Center()[pri:2, instance:bw_dd_testcases.AgencyClient@245b4bdc]" name="Media_Center" duration-ms="7589" started-at="2017-05-24T09:28:16Z" finished-at="2017-05-24T09:28:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Media_Center -->
+        <test-method status="PASS" signature="Press_Release_History()[pri:3, instance:bw_dd_testcases.AgencyClient@245b4bdc]" name="Press_Release_History" duration-ms="5554" started-at="2017-05-24T09:28:23Z" finished-at="2017-05-24T09:28:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Press_Release_History -->
+        <test-method status="PASS" signature="Brand_Addendum_History()[pri:4, instance:bw_dd_testcases.AgencyClient@245b4bdc]" name="Brand_Addendum_History" duration-ms="4066" started-at="2017-05-24T09:28:29Z" finished-at="2017-05-24T09:28:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Brand_Addendum_History -->
+        <test-method status="PASS" signature="Brand_Comment_History()[pri:5, instance:bw_dd_testcases.AgencyClient@245b4bdc]" name="Brand_Comment_History" duration-ms="3805" started-at="2017-05-24T09:28:33Z" finished-at="2017-05-24T09:28:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Brand_Comment_History -->
+        <test-method status="PASS" signature="Brand_Response_History()[pri:6, instance:bw_dd_testcases.AgencyClient@245b4bdc]" name="Brand_Response_History" duration-ms="3818" started-at="2017-05-24T09:28:37Z" finished-at="2017-05-24T09:28:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Brand_Response_History -->
+        <test-method status="PASS" signature="QnA_Dashboard()[pri:7, instance:bw_dd_testcases.AgencyClient@245b4bdc]" name="QnA_Dashboard" duration-ms="3007" started-at="2017-05-24T09:28:40Z" finished-at="2017-05-24T09:28:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- QnA_Dashboard -->
+        <test-method status="PASS" signature="My_Profile()[pri:8, instance:bw_dd_testcases.AgencyClient@245b4bdc]" name="My_Profile" duration-ms="2887" started-at="2017-05-24T09:28:43Z" finished-at="2017-05-24T09:28:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- My_Profile -->
+        <test-method status="PASS" signature="Company_Information()[pri:9, instance:bw_dd_testcases.AgencyClient@245b4bdc]" name="Company_Information" duration-ms="3090" started-at="2017-05-24T09:28:46Z" finished-at="2017-05-24T09:28:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Company_Information -->
+        <test-method status="PASS" signature="Client_info()[pri:10, instance:bw_dd_testcases.AgencyClient@245b4bdc]" name="Client_info" duration-ms="3099" started-at="2017-05-24T09:28:49Z" finished-at="2017-05-24T09:28:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Client_info -->
+        <test-method status="PASS" signature="Manage_manager()[pri:11, instance:bw_dd_testcases.AgencyClient@245b4bdc]" name="Manage_manager" duration-ms="2711" started-at="2017-05-24T09:28:53Z" finished-at="2017-05-24T09:28:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Manage_manager -->
+        <test-method status="PASS" signature="Manage_Product_Assign()[pri:12, instance:bw_dd_testcases.AgencyClient@245b4bdc]" name="Manage_Product_Assign" duration-ms="3348" started-at="2017-05-24T09:28:55Z" finished-at="2017-05-24T09:28:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Manage_Product_Assign -->
+        <test-method status="SKIP" signature="Manage_Request()[pri:13, instance:bw_dd_testcases.AgencyClient@245b4bdc]" name="Manage_Request" duration-ms="139" started-at="2017-05-24T09:28:59Z" finished-at="2017-05-24T09:28:59Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: null
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.fail(Assert.java:101)
+	at bw_dd_testcases.AgencyClient.Manage_Request(AgencyClient.java:608)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Manage_Request -->
+        <test-method status="SKIP" signature="Manage_Request()[pri:13, instance:bw_dd_testcases.AgencyClient@245b4bdc]" name="Manage_Request" duration-ms="149" started-at="2017-05-24T09:28:59Z" finished-at="2017-05-24T09:28:59Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: null
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.fail(Assert.java:101)
+	at bw_dd_testcases.AgencyClient.Manage_Request(AgencyClient.java:608)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.retryFailed(Invoker.java:963)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1142)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Manage_Request -->
+        <test-method status="FAIL" signature="Manage_Request()[pri:13, instance:bw_dd_testcases.AgencyClient@245b4bdc]" name="Manage_Request" duration-ms="112" started-at="2017-05-24T09:28:59Z" finished-at="2017-05-24T09:28:59Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: null
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.fail(Assert.java:101)
+	at bw_dd_testcases.AgencyClient.Manage_Request(AgencyClient.java:608)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.retryFailed(Invoker.java:963)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1142)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Manage_Request -->
+        <test-method status="PASS" signature="Usage_History()[pri:15, instance:bw_dd_testcases.AgencyClient@245b4bdc]" name="Usage_History" duration-ms="3525" started-at="2017-05-24T09:28:59Z" finished-at="2017-05-24T09:29:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Usage_History -->
+        <test-method status="PASS" signature="Offerings_PR()[pri:16, instance:bw_dd_testcases.AgencyClient@245b4bdc]" name="Offerings_PR" duration-ms="7515" started-at="2017-05-24T09:29:02Z" finished-at="2017-05-24T09:29:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Offerings_PR -->
+        <test-method status="PASS" signature="Offerings_BC()[pri:17, instance:bw_dd_testcases.AgencyClient@245b4bdc]" name="Offerings_BC" duration-ms="261" started-at="2017-05-24T09:29:10Z" finished-at="2017-05-24T09:29:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Offerings_BC -->
+        <test-method status="PASS" signature="Offerings_BR()[pri:18, instance:bw_dd_testcases.AgencyClient@245b4bdc]" name="Offerings_BR" duration-ms="281" started-at="2017-05-24T09:29:10Z" finished-at="2017-05-24T09:29:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Offerings_BR -->
+        <test-method status="PASS" signature="Offerings_AF()[pri:19, instance:bw_dd_testcases.AgencyClient@245b4bdc]" name="Offerings_AF" duration-ms="261" started-at="2017-05-24T09:29:11Z" finished-at="2017-05-24T09:29:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Offerings_AF -->
+        <test-method status="PASS" signature="Offerings_RQ()[pri:20, instance:bw_dd_testcases.AgencyClient@245b4bdc]" name="Offerings_RQ" duration-ms="2265" started-at="2017-05-24T09:29:11Z" finished-at="2017-05-24T09:29:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Offerings_RQ -->
+        <test-method status="PASS" signature="Offerings_Press_Release()[pri:21, instance:bw_dd_testcases.AgencyClient@245b4bdc]" name="Offerings_Press_Release" duration-ms="4209" started-at="2017-05-24T09:29:13Z" finished-at="2017-05-24T09:29:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Offerings_Press_Release -->
+        <test-method status="SKIP" signature="Notification()[pri:22, instance:bw_dd_testcases.AgencyClient@245b4bdc]" name="Notification" duration-ms="1629" started-at="2017-05-24T09:29:17Z" finished-at="2017-05-24T09:29:19Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: null
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.fail(Assert.java:101)
+	at bw_dd_testcases.AgencyClient.Notification(AgencyClient.java:1112)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Notification -->
+        <test-method status="SKIP" signature="Notification()[pri:22, instance:bw_dd_testcases.AgencyClient@245b4bdc]" name="Notification" duration-ms="1526" started-at="2017-05-24T09:29:19Z" finished-at="2017-05-24T09:29:20Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: null
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.fail(Assert.java:101)
+	at bw_dd_testcases.AgencyClient.Notification(AgencyClient.java:1112)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.retryFailed(Invoker.java:963)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1142)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Notification -->
+        <test-method status="FAIL" signature="Notification()[pri:22, instance:bw_dd_testcases.AgencyClient@245b4bdc]" name="Notification" duration-ms="1444" started-at="2017-05-24T09:29:20Z" finished-at="2017-05-24T09:29:22Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: null
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.fail(Assert.java:101)
+	at bw_dd_testcases.AgencyClient.Notification(AgencyClient.java:1112)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.retryFailed(Invoker.java:963)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1142)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Notification -->
+        <test-method status="PASS" signature="logout()[pri:0, instance:bw_dd_testcases.AgencyClient@245b4bdc]" name="logout" is-config="true" duration-ms="6465" started-at="2017-05-24T09:29:22Z" finished-at="2017-05-24T09:29:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+      </class> <!-- bw_dd_testcases.AgencyClient -->
+    </test> <!-- Test8 -->
+    <test name="Test9" duration-ms="5" started-at="2017-05-24T03:59:28Z" finished-at="2017-05-24T03:59:28Z">
+      <class name="bw_dd_core.Page">
+        <test-method status="PASS" signature="init()[pri:0, instance:bw_dd_core.Page@1ea9f6af]" name="init" is-config="true" duration-ms="12402" started-at="2017-05-24T09:28:00Z" finished-at="2017-05-24T09:28:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="exit()[pri:0, instance:bw_dd_core.Page@1ea9f6af]" name="exit" is-config="true" duration-ms="752" started-at="2017-05-24T09:29:28Z" finished-at="2017-05-24T09:29:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- exit -->
+      </class> <!-- bw_dd_core.Page -->
+      <class name="bw_dd_testcases.BrokenLinks">
+        <test-method status="SKIP" signature="isSkip()[pri:0, instance:bw_dd_testcases.BrokenLinks@2d7275fc]" name="isSkip" is-config="true" duration-ms="0" started-at="2017-05-24T09:29:28Z" finished-at="2017-05-24T09:29:28Z">
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Skipping the test as the Run mode is No]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Skipping the test as the Run mode is No
+	at bw_dd_testcases.BrokenLinks.isSkip(BrokenLinks.java:26)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:510)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:211)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isSkip -->
+        <test-method status="SKIP" signature="home_page_links_testing()[pri:1, instance:bw_dd_testcases.BrokenLinks@2d7275fc]" name="home_page_links_testing" duration-ms="1" started-at="2017-05-24T09:29:28Z" finished-at="2017-05-24T09:29:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- home_page_links_testing -->
+      </class> <!-- bw_dd_testcases.BrokenLinks -->
+    </test> <!-- Test9 -->
+  </suite> <!-- Suite -->
+</testng-results>
