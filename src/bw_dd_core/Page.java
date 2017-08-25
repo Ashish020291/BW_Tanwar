@@ -29,7 +29,7 @@ public class Page {
 	public static Properties or=null;
 	public static WebDriverWait wait=null;
 	public static WebElement P_element=null;
-	public static Logger logs = Logger.getLogger("devpinoyLogger");
+	//public static Logger logs = Logger.getLogger("devpinoyLogger");
 	
 	
 	
@@ -51,7 +51,7 @@ public class Page {
 			of= new FileInputStream(System.getProperty("user.dir") + "\\src\\bw_dd_properties\\or.properties");
 			or=new Properties();
 			or.load(of);
-			logs.debug("loaded object repositry file ");
+			//logs.debug("loaded object repositry file ");
 			
 			if(config.getProperty("browser").equals("chrome"))
 			{
