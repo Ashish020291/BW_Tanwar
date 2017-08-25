@@ -46,7 +46,7 @@ public class Page {
 			cf=new FileInputStream(System.getProperty("user.dir") + "\\src\\bw_dd_properties\\config.properties");
 			config= new Properties();
 			config.load(cf);
-			logs.debug("loaded config file");
+			//logs.debug("loaded config file");
 			
 			of= new FileInputStream(System.getProperty("user.dir") + "\\src\\bw_dd_properties\\or.properties");
 			or=new Properties();
@@ -57,18 +57,18 @@ public class Page {
 			{
 				System.setProperty("webdriver.chrome.driver", "F:\\jars\\chromedriver.exe");
 				driver=new ChromeDriver();
-				logs.debug("loaded chrome driver ");
+				//logs.debug("loaded chrome driver ");
 			}
 			else if(config.getProperty("browser").equals("Firefox"))
 			{
 				driver=new FirefoxDriver();
-				logs.debug("loaded firefox driver ");
+				//logs.debug("loaded firefox driver ");
 			}
 			else if(config.getProperty("browser").equals("IE"))
 			{
 				System.setProperty("webdriver.ie.driver", "F:\\jars\\IEDriverServer.exe");
 				driver= new InternetExplorerDriver();
-				logs.debug("loaded IE driver ");
+				//logs.debug("loaded IE driver ");
 			}
 			
 			driver.get(config.getProperty("Live_server_url"));
@@ -76,7 +76,7 @@ public class Page {
 			//driver.manage().timeouts().implicitlyWait(20000, TimeUnit.SECONDS);
 			driver.manage().timeouts().pageLoadTimeout(30000, TimeUnit.SECONDS);
 			wait=new WebDriverWait(driver, 30);
-			logs.debug("Hit test url ");
+			//logs.debug("Hit test url ");
 			System.out.println("\nBrandwire Home Page: "+ driver.getCurrentUrl());
 		}
 	}
@@ -85,7 +85,7 @@ public class Page {
 	public static void exit()
 	{
 		System.out.println("\n Test Suite Execution completes, Therefore closing all open sesssion ");
-		logs.debug("closing all current session");
+		//logs.debug("closing all current session");
 		driver.quit();
 	}
 	
@@ -93,14 +93,14 @@ public class Page {
 	public static WebElement findelement(String key) throws IOException
 	{
 		try{
-			logs.debug("return xpath" + key);
+			//logs.debug("return xpath" + key);
 			return driver.findElement(By.xpath(or.getProperty(key)));
 		
 			}
 		catch(Throwable t)
 		{
 			TestUtil.CaptureScreenshot();
-			logs.debug("issue in returning element xpath");
+			//logs.debug("issue in returning element xpath");
 			return null;
 		}
 	}
