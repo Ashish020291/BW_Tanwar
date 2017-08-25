@@ -34,7 +34,7 @@ public class Page {
 	
 	
 	//call methods customize methods created for excel using in utility class
-	public static Xls_Reader excel= new Xls_Reader("F:\\Personal\\workspace\\Live_Automation\\src\\bw_dd_properties\\BW_testdata.xlsx");
+	public static Xls_Reader excel= new Xls_Reader(System.getProperty("user.dir") + "\\src\\bw_dd_properties\\BW_testdata.xlsx");
 	
 	//initialize broser and connection to product url
 	
@@ -43,12 +43,12 @@ public class Page {
 	{
 		if(driver==null)
 		{
-			cf=new FileInputStream("F:\\Personal\\workspace\\Live_Automation\\src\\bw_dd_properties\\config.properties");
+			cf=new FileInputStream(System.getProperty("user.dir") + "\\src\\bw_dd_properties\\config.properties");
 			config= new Properties();
 			config.load(cf);
 			logs.debug("loaded config file");
 			
-			of= new FileInputStream("F:\\Personal\\workspace\\Live_Automation\\src\\bw_dd_properties\\or.properties");
+			of= new FileInputStream(System.getProperty("user.dir") + "\\src\\bw_dd_properties\\or.properties");
 			or=new Properties();
 			or.load(of);
 			logs.debug("loaded object repositry file ");
